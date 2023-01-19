@@ -1,0 +1,390 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@800&display=swap');
+
+html
+{
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  background-color: #17182f;
+  font-family: 'Nanum Myeongjo', serif;
+  
+}
+
+canvas {
+  display: block;
+}
+
+#particles-js {
+  position: absolute;
+  width: 100%;
+}
+
+#particles-js h1
+{
+  
+  position: absolute;
+  color: white;
+  top: 35%;
+  width: 100%;
+  font-weight: 500;
+  font-size: 40px;
+  text-align: center;
+}
+#particles-js h2
+{
+  position: absolute;
+  color: white;
+  top: 45%;
+  width: 100%;
+  text-align: center;
+  font-weight: 500;
+  font-size: 40px;
+}
+
+.fa-solid
+{
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  font-size: 30px;
+  color: white;
+  
+}
+#animation
+{
+  animation-name: ssss;
+  animation-duration: 50s;
+  position: absolute;
+}
+
+.me-portafolio-father
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.178);
+  
+  
+}
+.me-portafolio-father nav
+{
+  width: 100%;
+  background-color: #17182fd0;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.555);
+}
+.me-portafolio-father nav ul
+{
+  display: flex;
+  
+  justify-content: center;
+  padding: 1rem;
+  list-style-type: none;
+}
+.me-portafolio-father nav ul li
+{
+  padding: 1rem;
+}
+.me-portafolio-father nav ul li a
+{
+  margin: 1rem;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.753);
+}
+.me-portafolio-father h2
+{
+  width: 15%;
+  padding: 1rem;
+  text-align: center;
+  font-size: 40px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.753);
+  color: rgba(255, 255, 255, 0.753);
+  margin-top: 100px;
+}
+.me-portafolio-father p
+{
+  width: 50%;
+  text-align:justify;
+  font-size: 30px;
+  padding: 2rem;
+  color: rgba(255, 255, 255, 0.753);
+  margin-bottom: 0px;
+}
+.tecnologies-father
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background: -webkit-linear-gradient(90deg, #ffffff11, #17182f);
+  
+}
+.tecnologies-father h2
+{
+  
+  width: 30%;
+  text-align: center;
+  margin-top: 250px;
+}
+.technologies-divs-fahter
+{
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  padding: 1rem;
+  flex-wrap: wrap;
+}
+.divt
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 250px;
+  margin: 1rem;
+  color: white;
+  margin-bottom: 100px;
+  margin-top: 60px;
+  
+
+}
+.fa-html5
+{
+    color: #E44D26;
+}
+.fa-css3-alt
+{
+    color: #2246d0;
+}
+.fa-sass
+{
+    color: #D071A0;
+}
+.fa-bootstrap
+{
+    color:#712cf9 ;
+}
+.fa-js
+{
+  color:#F7DF1E ;
+}
+.fa-github
+{
+  color: black;
+}
+.fa-brands
+{
+  margin-top: 20px;
+  font-size: 70px;
+}
+.divt h4
+{
+  margin-top: 30px;
+}
+.mis-proyectos-father
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  
+  justify-content: center;
+  background: -webkit-linear-gradient(90deg,#ffffff11 ,#17182f);
+}
+.mis-proyectos-father h2
+{
+  width: 30%;
+  text-align: center;
+}
+.proyectos
+{
+  display: flex;
+  width: 90%;
+  height: auto;
+  margin-top: 60px;
+  margin-bottom: 30px;
+  border: 5px solid  rgba(255, 255, 255, 0.753);;
+  
+}
+.sec-ph
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+.sec-ph img
+{
+  height: 100%;
+  width:100%;
+
+}
+.textpr
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 50%;
+}
+.textpr h2
+{
+  margin-top: 0px;
+  font-size: 35px;
+  margin-bottom: 0px;
+}
+.textpr p
+{
+  font-size: 18px;
+  text-align: justify;
+  width: 80%;
+}
+.links
+{
+
+  display: flex;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.links a
+{
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  width: 100%;
+}
+.links a p
+{
+  padding: 0px;
+  text-align: center;
+  font-size:16px;
+  width: 100%;
+}
+.links a p:hover
+{
+  color: black;
+}
+.contact
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background: -webkit-linear-gradient(90deg,#17182f ,#ffffff11);
+}
+.contact h2
+{
+  text-align: center;
+  width: 20%;
+  margin-top: 260px;
+}
+.father-about-me
+{
+  display: flex;
+  width: 100%;
+}
+.form
+{
+
+  width: 50%;
+}
+.form fieldset
+{
+  margin-top: 50px;
+  margin-bottom: 70px;
+  width: 100%;
+}
+legend
+{
+  width: 100%;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.753);
+}
+.col-12
+{
+  width:100%;
+  text-align: center;
+}
+.col-8
+{
+  margin: 0.5rem;
+}
+.col-121
+{
+  width:100%;
+  text-align: center;
+  
+}
+textarea
+{
+    resize: none;
+}
+.btn-send
+{
+  margin: 1rem;
+  padding: 0.5rem;
+}
+.socials
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+.socials legend
+{
+  width: 100%;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.753);
+  margin-top: 50px;
+  
+}
+.socials a
+{
+  text-align: center;
+  text-decoration: none;
+
+  margin: 0.2rem;
+}
+.ss
+{
+  color: rgba(255, 255, 255, 0.753);
+}
+.ss:hover
+{
+  color: black;
+}
+
+
+@-webkit-keyframes ssss {
+  
+  
+  0%{transform: translateY(10px);}
+  5%{transform: translateY(-5px);}
+  10%{transform: translateY(10px);}
+  15%{transform: translateY(-5px);}
+  20%{transform: translateY(10px);}
+  25%{transform: translateY(-5px);}
+  30%{transform: translateY(10px);}
+  35%{transform: translateY(-5px);}
+  40%{transform: translateY(10px);}
+  45%{transform: translateY(-5px);}
+  50%{transform: translateY(10px);}
+  55%{transform: translateY(-5px);}
+  60%{transform: translateY(10px);}
+  65%{transform: translateY(-5px);}
+  70%{transform: translateY(10px);}
+  75%{transform: translateY(-5px);}
+  80%{transform: translateY(10px);}
+  85%{transform: translateY(-5px);}
+  90%{transform: translateY(10px);}
+  95%{transform: translateY(-5px);}
+  100%{transform: translateY(10px);}
+  
+}
+
+
